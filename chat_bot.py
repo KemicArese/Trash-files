@@ -6,7 +6,7 @@ def main():
     print("Initializing the model (this might take a while)...")
     try:
         # Initialize the GPT4All model with a smaller model
-        model = GPT4All("nous-hermes-llama2-13b.Q4_0.gguf", allow_download=True)
+        model = GPT4All("D:/Models/DeepSeek-R1-Distill-Qwen-7B-Q4_0.gguf")  # Using a smaller model for faster loading
         print("Model loaded successfully!")
     except Exception as e:
         print(f"Error loading the model: {str(e)}")
